@@ -92,28 +92,6 @@ a {
   background: white;
   z-index: 1;
 }
-.icon-parent {
-  background: red;
-  z-index: 2;
-  margin-left: 60em;
-  width: 20em;
-  height: 6em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.icon-parent div {
-  height: 50%;
-}
-.top-icon-1 {
-  background: hotpink;
-  width: 30%;
-}
-.top-icon-2 {
-  background: yellow;
-  width: 80%;
-}
 
 .main-content-div {
   max-width: 50vw;
@@ -121,6 +99,19 @@ a {
   display: inline-block;
   background: #888;
 }
+
+.main-content-div .img-div {
+  width:5.7em;
+  height:5.7em;
+  border : 5px solid white;
+  border-radius: 3px;
+  transition: ;
+}
+
+.main-content-div .img-div img {
+  width:5em;
+}
+
 .light-gray {
   background: #555;
 }
