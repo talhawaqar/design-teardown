@@ -6,8 +6,9 @@
 body {
   font-family: "Baloo Paaji 2", Georgia, "Times New Roman", Times, serif;
 }
+
 .logo {
-  width: 10em;
+  width: 5em;
   height: 4em;
   margin-top: 1em;
 }
@@ -19,19 +20,22 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-size: 1.4em;
+  font-weight: 600;
 }
+
 ul li {
   display: inline-block;
   text-decoration: none;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
+
 .link-container {
-  margin: 0em 2em;
-  font-size: 1.4em;
-  font-weight: 600;
+  margin: 0em 2em 0em 1em;
   width: 50%;
   display: flex;
   justify-content: space-between;
@@ -44,9 +48,21 @@ a {
   background-color: #333;
   border-radius: 0.5em;
 }
+
 .more-btn {
-  background: firebrick;
+  background: #444;
   display: flex;
-  padding: 1em;
-  justify-content: space-between;
+  border-radius: 0.5em;
+  /* justify-content: space-between; */
+}
+
+.more-btn img {
+  width: 4em;
+  height: 1.7em;
+}
+
+.main-content-div {
+  width: 50vw;
+  height: 100vh;
+  background-color: #888;
 }
