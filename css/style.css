@@ -101,7 +101,20 @@ a {
 
 .img-div img {
   width: 5em;
+  margin-right: 1em;
 }
+
+.rotate-up {  
+  transition: all 0.5s ease-out; 
+  transform: rotate(-15deg); 
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
+} 
+
+.rotate-up:hover {
+  transition: all 0.5s ease-out; 
+  transform: rotate(0deg);
+}
+
 
 .light-gray {
   background: #555;
@@ -142,7 +155,7 @@ a {
   border-radius: 5px;
 }
 .img-div {
-  width: 60%;
+  width: 70%;
   height: auto;
   display: flex;
   justify-content: space-between;
