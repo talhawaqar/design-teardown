@@ -3,26 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Baloo Paaji 2", Georgia, "Times New Roman", Times, serif;
+}
+.logo {
+  width: 10em;
+  height: 4em;
+  margin-top: 1em;
+}
 
 .navbar {
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   background-color: #666;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-
-.navbar .logo {
-  width: 50px;
-
-}
-
-.navbar a {
-  height: 5vh;
-  color:white;
+ul li {
+  display: inline-block;
   text-decoration: none;
-  padding: 1em 0.5em;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.link-container {
+  margin: 0em 2em;
+  font-size: 1.4em;
+  font-weight: 600;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  padding: 0.5em;
 }
 
 .navbar a:hover {
   background-color: #333;
   border-radius: 0.5em;
+}
+.more-btn {
+  background: firebrick;
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
 }
