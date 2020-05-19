@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Baloo Paaji 2", Georgia, "Times New Roman", Times, serif;
+  max-width: 100%;
 }
 
 .logo {
@@ -53,7 +54,6 @@ a {
   background: #444;
   display: flex;
   border-radius: 0.5em;
-  /* justify-content: space-between; */
 }
 
 .more-btn img {
@@ -61,8 +61,53 @@ a {
   height: 1.7em;
 }
 
+.parent-grid-div {
+  position: relative;
+  max-width: 100%;
+  height: 200vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.upper-text {
+  position: relative;
+  width: 100%;
+  background: gold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.div-text {
+  width: 30%;
+  position: absolute;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+  background: fuchsia;
+  z-index: 1;
+  margin-right: 10em;
+}
+.icon-parent {
+  background: red;
+  z-index: 2;
+}
+
 .main-content-div {
-  width: 50vw;
+  max-width: 50vw;
   height: 100vh;
-  background-color: #888;
+  display: inline-block;
+  background: #888;
+}
+.light-gray {
+  background: #555;
+}
+
+.medium-gray {
+  background: #444;
+}
+
+.dark-gray {
+  background: #333;
 }
