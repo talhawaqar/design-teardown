@@ -61,6 +61,10 @@ a {
   height: 1.7em;
 }
 
+.main-section {
+  position: relative;
+}
+
 .parent-grid-div {
   position: relative;
   max-width: 100%;
@@ -70,13 +74,13 @@ a {
   grid-template-rows: 1fr 1fr;
 }
 .upper-text {
-  position: relative;
+  position: absolute;
   width: 100%;
-  background: gold;
+  background: goldenrod;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .div-text {
@@ -85,13 +89,30 @@ a {
   font-size: 2em;
   line-height: 1.5em;
   text-align: center;
-  background: fuchsia;
+  background: white;
   z-index: 1;
-  margin-right: 10em;
 }
 .icon-parent {
   background: red;
   z-index: 2;
+  margin-left: 60em;
+  width: 20em;
+  height: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-parent div {
+  height: 50%;
+}
+.top-icon-1 {
+  background: hotpink;
+  width: 30%;
+}
+.top-icon-2 {
+  background: yellow;
+  width: 80%;
 }
 
 .main-content-div {
