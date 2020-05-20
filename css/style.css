@@ -365,4 +365,27 @@ a {
 .box ul li a {
   color: black;
 }
+/* ====================================================================================== 
+Footer Section
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=++++++++++   */
+.footer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background: radial-gradient(#787878, #545454);
+}
 
+.footer-header {
+  margin: 2em 0 5em;
+}
+
+.unordered-links {
+  width: 70%;
+  font-size: 2em;
+  margin-bottom: 5em;
+}
+.unordered-links li {
+  padding: 0 0.2em;
+}
