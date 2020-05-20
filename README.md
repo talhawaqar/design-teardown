@@ -1,9 +1,10 @@
-# building-with-backgrounds-and-gradients
-Microverse project to learn for practicing gradients
+# build the hierarchy of smashing Magazine
 
-![screenshot](./images/Screenshot.png)
+Microverse project focused on learning Design Hierarchy
 
-The page tries to replicate as much as possible the actual sign up page of apple.com.
+![screenshot]()
+
+The page shows the design Hierarchy of Smashing Magazine .
 
 ## Built With
 
@@ -12,9 +13,9 @@ The page tries to replicate as much as possible the actual sign up page of apple
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/talhawaqar/building-with-backgrounds-and-gradients/adding-apple-page/index.html)
+[Live Demo Link](https://raw.githack.com/talhawaqar/design-teardown/feature-page/index.html)
 
-👤 **Author**
+👤 **Authors**
 
 - Github: [@talhawaqar](https://github.com/talhawaqar)
 - Linkedin: [@talha-waqar](https://www.linkedin.com/in/talha-waqar-977257145/)
@@ -22,13 +23,18 @@ The page tries to replicate as much as possible the actual sign up page of apple
 - email: (talhawaqar007@hotmail.com)
 - email-2: (talhawaqar007@gmail.com)
 
+- Github: [@Haroonabdulrazaq](https://github.com/Haroonabdulrazaq)
+- Linkedin: [@Haroonabdulrazaq](https://www.linkedin.com/in/haroon-abdulrazaq-817906100/)
+- Twitter: [@Hanq_o](https://twitter.com/Hanq_o)
+- Email: (Haroonabdulrazaq@gmail.com)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome! Start by:
 
 - Forking the project
 - Cloning the project to your local machine
-- `cd` into the Youtube-Replica project directory
+- `cd` into the project directory
 - Run `git checkout -b your-branch-name`
 - Make your contributions
 - Push your branch up to your forked repository
