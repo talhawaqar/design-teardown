@@ -104,17 +104,16 @@ a {
   margin-right: 1em;
 }
 
-.rotate-up {  
-  transition: all 0.5s ease-out; 
-  transform: rotate(-15deg); 
+.rotate-up {
+  transition: all 0.5s ease-out;
+  transform: rotate(-15deg);
   box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
-} 
-
-.rotate-up:hover {
-  transition: all 0.5s ease-out; 
-  transform: rotate(0deg);
 }
 
+.rotate-up:hover {
+  transition: all 0.5s ease-out;
+  transform: rotate(0deg);
+}
 
 .light-gray {
   background: #555;
@@ -168,4 +167,31 @@ a {
 .author-description {
   font-size: 2em;
   font-weight: 700;
+}
+/* 
+==============================================================================================================
+    Text Section Style
+=============================================================================================================== */
+
+.text-section {
+  background: lawngreen;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 100%;
+  height: 90%;
+}
+.text1 {
+  background: peru;
+}
+.text2 {
+  background: royalblue;
+}
+
+.text3 {
+  background: seagreen;
 }
