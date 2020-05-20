@@ -2,7 +2,7 @@
 
 Microverse project focused on learning Design Hierarchy
 
-![screenshot]()
+![screenshot](./images/Screenshot.png)
 
 The page shows the design Hierarchy of Smashing Magazine .
 
