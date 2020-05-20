@@ -230,13 +230,49 @@ a {
 
 .tv-section-box {
   width: 35%;
-  height:100vh;
+  height: 100vh;
 }
 
 .tv-section .new-on-tv {
   width: 60%;
-  height:100vh;
+  height: 100vh;
   background-color: #444;
-  border-radius: 1em;
+  border-radius: 5px;
 }
 
+.wide-background {
+  height: 100vh;
+  text-align: center;
+  line-height: 1.5em;
+  color: white;
+  font-size: 2.5em;
+}
+.wide-background p {
+  width: 60%;
+  line-height: 1em;
+}
+.btn {
+  margin-top: 8%;
+  width: 20%;
+  height: 10%;
+  border-radius: 5px;
+  border: none;
+  font-weight: 800;
+}
+
+.remote-section {
+  height: 200vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+.week-person {
+  background: lawngreen;
+}
+.remote-6 {
+  background: lightcoral;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
