@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Baloo Paaji 2", Georgia, "Times New Roman", Times, serif;
   max-width: 100%;
   background-color: #aaa;
 }
+
 button:hover {
   cursor: pointer;
 }
@@ -40,11 +42,12 @@ a {
 }
 
 .link-container {
-  margin: 0em 2em 0em 1em;
+  margin: 0 2em 0 1em;
   width: 50%;
   display: flex;
   justify-content: space-between;
 }
+
 .navbar a {
   padding: 0.5em;
 }
@@ -77,6 +80,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
 .upper-text {
   position: absolute;
   width: 100%;
@@ -106,6 +110,8 @@ a {
 .img-div img {
   width: 5em;
   margin-right: 1em;
+  border: 5px solid white;
+  border-radius: 5px;
 }
 
 .rotate-up {
@@ -151,13 +157,11 @@ a {
   margin: 0 auto;
   padding: 1em;
 }
+
 .rick {
   font-style: italic;
 }
-.img-div img {
-  border: 5px solid white;
-  border-radius: 5px;
-}
+
 .img-div {
   width: 70%;
   height: auto;
@@ -173,7 +177,8 @@ a {
   font-size: 2em;
   font-weight: 700;
 }
-/* 
+
+/*
 ==============================================================================================================
     Text Section Style
 =============================================================================================================== */
@@ -189,6 +194,7 @@ a {
   width: 100%;
   height: 90%;
 }
+
 .group-text {
   margin: 2em;
 }
@@ -255,6 +261,7 @@ a {
   width: 60%;
   line-height: 1em;
 }
+
 .btn {
   margin-top: 8%;
   width: 20%;
@@ -337,6 +344,7 @@ a {
   color: white;
   height: 50vh;
 }
+
 .person-details .btn {
   width: 20em;
   padding: 1em;
@@ -354,7 +362,7 @@ a {
 }
 
 .link-section .box h2 {
-  padding: 0.7em 0em;
+  padding: 0.7em 0;
 }
 
 .box ul li {
@@ -362,10 +370,11 @@ a {
   display: list-item;
 }
 
-.box ul li a {
+.link-section .box ul li a {
   color: black;
 }
-/* ====================================================================================== 
+
+/* ======================================================================================
 Footer Section
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=++++++++++   */
 .footer {
@@ -386,6 +395,7 @@ Footer Section
   font-size: 2em;
   margin-bottom: 5em;
 }
-.unordered-links li {
+
+.footer .unordered-links li {
   padding: 0 0.2em;
 }
