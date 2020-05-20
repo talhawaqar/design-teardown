@@ -174,7 +174,6 @@ a {
 =============================================================================================================== */
 
 .text-section {
-  background: lawngreen;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -184,14 +183,36 @@ a {
 .box {
   width: 100%;
   height: 90%;
+  margin-top: 2em;
+  background: #ddd;
+}
+.group-text {
+  margin: 2em;
 }
 .text1 {
-  background: peru;
 }
+.heading-text {
+  width: 90%;
+  font-size: 1.7em;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.text-description {
+  font-size: 1.4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.arrow {
+  width: 10em;
+  height: 5em;
+  margin-top: 41%;
+}
+/* arrow:hover {
+  background: #444;
+} */
 .text2 {
-  background: royalblue;
 }
 
 .text3 {
-  background: seagreen;
 }
