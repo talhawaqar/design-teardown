@@ -15,13 +15,17 @@ The page shows the design Hierarchy of Smashing Magazine .
 
 [Live Demo Link](https://raw.githack.com/talhawaqar/design-teardown/feature-page/index.html)
 
-👤 **Authors**
+## Authors
+
+👤 **Author 1**
 
 - Github: [@talhawaqar](https://github.com/talhawaqar)
 - Linkedin: [@talha-waqar](https://www.linkedin.com/in/talha-waqar-977257145/)
 - Twitter: [@MuhammadTalhaW4](https://twitter.com/MuhammadTalhaW4)
 - email: (talhawaqar007@hotmail.com)
 - email-2: (talhawaqar007@gmail.com)
+
+👤 **Author 1**
 
 - Github: [@Haroonabdulrazaq](https://github.com/Haroonabdulrazaq)
 - Linkedin: [@Haroonabdulrazaq](https://www.linkedin.com/in/haroon-abdulrazaq-817906100/)
