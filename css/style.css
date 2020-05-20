@@ -250,6 +250,7 @@ a {
   font-size: 2.5em;
   background: radial-gradient(#787878, #545454);
 }
+
 .wide-background p {
   width: 60%;
   line-height: 1em;
@@ -349,5 +350,19 @@ a {
 }
 
 .link-section {
-  background: lawngreen;
+  height: 100vh;
 }
+
+.link-section .box h2 {
+  padding: 0.7em 0em;
+}
+
+.box ul li {
+  line-height: 2.5em;
+  display: list-item;
+}
+
+.box ul li a {
+  color: black;
+}
+
