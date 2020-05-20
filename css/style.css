@@ -6,7 +6,10 @@
 body {
   font-family: "Baloo Paaji 2", Georgia, "Times New Roman", Times, serif;
   max-width: 100%;
-  background-color: #ddd;
+  background-color: #aaa;
+}
+button:hover {
+  cursor: pointer;
 }
 
 .logo {
@@ -108,7 +111,7 @@ a {
 .rotate-up {
   transition: all 0.5s ease-out;
   transform: rotate(-15deg);
-  transform-origin: left bottom; 
+  transform-origin: left bottom;
   box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
 }
 
@@ -185,7 +188,6 @@ a {
 .box {
   width: 100%;
   height: 90%;
-  background: #888;
 }
 .group-text {
   margin: 2em;
@@ -226,7 +228,6 @@ a {
 .tv-section {
   display: flex;
   width: 100%;
-  background-color: #888;
 }
 
 .tv-section-box {
@@ -237,7 +238,7 @@ a {
 .tv-section .new-on-tv {
   width: 60%;
   height: 100vh;
-  background-color: #444;
+  background: radial-gradient(#787878, #545454);
   border-radius: 5px;
 }
 
@@ -247,6 +248,7 @@ a {
   line-height: 1.5em;
   color: white;
   font-size: 2.5em;
+  background: radial-gradient(#787878, #545454);
 }
 .wide-background p {
   width: 60%;
@@ -275,9 +277,9 @@ a {
 }
 
 .week-person .img-div {
-  display:inline-block;
-  width:11em;
-  height:11em;
+  display: inline-block;
+  width: 11em;
+  height: 11em;
   border: solid #333 5px;
   background-color: #444;
   border-radius: 0.2em;
@@ -302,9 +304,9 @@ a {
 }
 
 .person .img-div {
-  display:inline-block;
+  display: inline-block;
   width: 5em;
-  height:5em;
+  height: 5em;
   border: solid #333 5px;
   background-color: #444;
   border-radius: 0.2em;
@@ -326,3 +328,22 @@ a {
   font-size: 15px;
 }
 
+.feature-book {
+  position: relative;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  color: white;
+  height: 50vh;
+}
+.person-details .btn {
+  width: 20em;
+  padding: 1em;
+}
+
+.feature-book .img-div {
+  position: absolute;
+  right: 5em;
+  top: -6em;
+  height: 15em;
+}
