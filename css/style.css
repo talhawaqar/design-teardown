@@ -6,6 +6,7 @@
 body {
   font-family: "Baloo Paaji 2", Georgia, "Times New Roman", Times, serif;
   max-width: 100%;
+  background-color: #ddd;
 }
 
 .logo {
@@ -175,7 +176,7 @@ a {
 
 .text-section {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -183,14 +184,12 @@ a {
 .box {
   width: 100%;
   height: 90%;
-  margin-top: 2em;
-  background: #ddd;
+  background: #888;
 }
 .group-text {
   margin: 2em;
 }
-.text1 {
-}
+
 .heading-text {
   width: 90%;
   font-size: 1.7em;
@@ -208,11 +207,36 @@ a {
   height: 5em;
   margin-top: 41%;
 }
-/* arrow:hover {
-  background: #444;
-} */
-.text2 {
+
+.arrow:hover {
+  cursor: pointer;
 }
 
-.text3 {
+.box:hover {
+  background-color: white;
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
 }
+
+.box:hover .arrow {
+  background-color: #444;
+}
+
+.tv-section {
+  display: flex;
+  width: 100%;
+  background-color: #888;
+}
+
+.tv-section-box {
+  width: 35%;
+  height:100vh;
+}
+
+.tv-section .new-on-tv {
+  width: 60%;
+  height:100vh;
+  background-color: #444;
+  border-radius: 1em;
+}
+
