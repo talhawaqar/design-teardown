@@ -25,7 +25,7 @@ The page shows the design Hierarchy of Smashing Magazine .
 - email: (talhawaqar007@hotmail.com)
 - email-2: (talhawaqar007@gmail.com)
 
-👤 **Author 1**
+👤 **Author 2**
 
 - Github: [@Haroonabdulrazaq](https://github.com/Haroonabdulrazaq)
 - Linkedin: [@Haroonabdulrazaq](https://www.linkedin.com/in/haroon-abdulrazaq-817906100/)
