@@ -60,8 +60,8 @@ a {
 }
 
 .more-btn {
-  background: #444;
   display: flex;
+  background: #444;
   border-radius: 0.5em;
 }
 
@@ -250,8 +250,11 @@ a {
 .tv-section .new-on-tv {
   width: 60%;
   height: 100vh;
-  background: radial-gradient(#787878, #545454);
   border-radius: 5px;
+}
+
+.radial {
+  background: radial-gradient(#787878, #545454);
 }
 
 .wide-background {
@@ -260,7 +263,6 @@ a {
   line-height: 1.5em;
   color: white;
   font-size: 2.5em;
-  background: radial-gradient(#787878, #545454);
 }
 
 /*
@@ -300,10 +302,8 @@ a {
   width: 11em;
   height: 11em;
   border: solid #333 5px;
-  background-color: #444;
   border-radius: 0.2em;
-  margin-left: 3em;
-  margin-top: 3em;
+  margin: 0 3em;
 }
 
 .week-person h2 {
@@ -327,10 +327,8 @@ a {
   width: 5em;
   height: 5em;
   border: solid #333 5px;
-  background-color: #444;
   border-radius: 0.2em;
-  margin-left: 3em;
-  margin-top: 3em;
+  margin: 0 3em;
 }
 
 .person h3 {
@@ -404,7 +402,6 @@ Footer Section
   flex-direction: column;
   align-items: center;
   color: white;
-  background: radial-gradient(#787878, #545454);
 }
 
 .footer-header {
