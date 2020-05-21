@@ -10,6 +10,10 @@ body {
   background-color: #aaa;
 }
 
+.clr {
+  clear:both;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -186,13 +190,13 @@ a {
 .text-section {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
-.box {
-  width: 100%;
-  height: 90%;
+
+.text-section .box {
+  width: 33.33%;
+  height: 100vh;
+  float: left;
 }
 
 .group-text {
@@ -230,6 +234,13 @@ a {
 .box:hover .arrow {
   background-color: #444;
 }
+
+
+/*
+==============================================================================================================
+    Tv Section Style
+=============================================================================================================== */
+
 
 .tv-section {
   display: flex;
