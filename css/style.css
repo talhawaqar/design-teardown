@@ -60,8 +60,8 @@ a {
 }
 
 .more-btn {
-  display: flex;
   background: #444;
+  display: flex;
   border-radius: 0.5em;
 }
 
