@@ -268,6 +268,12 @@ a {
   background: radial-gradient(#787878, #545454);
 }
 
+/*
+==============================================================================================================
+    Wide Background Section
+=============================================================================================================== */
+
+
 .wide-background p {
   width: 60%;
   line-height: 1em;
@@ -368,20 +374,30 @@ a {
   height: 15em;
 }
 
+/* ======================================================================================
+Link Section
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=++++++++++   */
+
 .link-section {
   height: 100vh;
 }
 
-.link-section .box h2 {
+.link-section .link-box {
+  height: 100vh;
+  width: 25%;
+  float:left;
+}
+
+.link-section .link-box h2 {
   padding: 0.7em 0;
 }
 
-.box ul li {
+.link-box ul li {
   line-height: 2.5em;
   display: list-item;
 }
 
-.link-section .box ul li a {
+.link-section .link-box ul li a {
   color: black;
 }
 
