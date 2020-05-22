@@ -114,7 +114,6 @@ a {
     Article Section Style
 =============================================================================================================== */
 
-
 .main-section {
   position: relative;
 }
@@ -268,7 +267,6 @@ a {
     Wide Background Section
 =============================================================================================================== */
 
-
 .wide-background {
   height: 100vh;
   text-align: center;
@@ -279,7 +277,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 
 .wide-background p {
   width: 60%;
@@ -312,15 +309,10 @@ a {
 }
 
 .week-person .img-div {
-  display: inline-block;
   width: 11em;
   height: 11em;
   border: solid #333 5px;
   border-radius: 0.2em;
-  margin: 0 3em;
-}
-
-.week-person h2 {
   margin-top: 3em;
 }
 
@@ -335,7 +327,6 @@ a {
 }
 
 .person .img-div {
-  display: inline-block;
   width: 5em;
   height: 5em;
   border: solid #333 5px;
