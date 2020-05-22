@@ -10,9 +10,51 @@ body {
   background-color: #aaa;
 }
 
+/*
+==============================================================================================================
+    Utiity Classes
+=============================================================================================================== */
+
 .clr {
   clear: both;
 }
+
+.rotate-up {
+  transition: all 0.5s ease-out;
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
+}
+
+.rotate-up:hover {
+  transition: all 0.5s ease-out;
+  transform: rotate(0deg);
+}
+
+.grid-display {
+  display: grid;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.light-gray-bg {
+  background: #555;
+}
+
+.medium-gray-bg {
+  background: #444;
+}
+
+.dark-gray-bg {
+  background: #333;
+}
+
+/*
+==============================================================================================================
+    Header Section Style
+=============================================================================================================== */
 
 button:hover {
   cursor: pointer;
@@ -27,7 +69,6 @@ button:hover {
 .navbar {
   height: 15vh;
   background-color: #666;
-  display: flex;
   justify-content: flex-start;
   align-items: center;
   font-size: 1.4em;
@@ -46,7 +87,6 @@ a {
 
 .nav-middle {
   margin: 0 1em;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -61,7 +101,6 @@ a {
 
 .more-btn {
   background: #444;
-  display: flex;
   border-radius: 0.5em;
 }
 
@@ -70,15 +109,19 @@ a {
   height: 1.7em;
 }
 
+/*
+==============================================================================================================
+    Article Section Style
+=============================================================================================================== */
+
+
 .main-section {
   position: relative;
 }
 
 .parent-grid-div {
   position: relative;
-  max-width: 100%;
   height: 200vh;
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
@@ -86,8 +129,6 @@ a {
 .upper-text {
   position: absolute;
   width: 100%;
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
 }
@@ -105,8 +146,9 @@ a {
 .main-content-div {
   max-width: 50vw;
   height: 100vh;
-  display: inline-block;
-  background: #888;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-div img {
@@ -114,42 +156,6 @@ a {
   margin-right: 1em;
   border: 5px solid white;
   border-radius: 5px;
-}
-
-.rotate-up {
-  transition: all 0.5s ease-out;
-  transform: rotate(-15deg);
-  transform-origin: left bottom;
-  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
-}
-
-.rotate-up:hover {
-  transition: all 0.5s ease-out;
-  transform: rotate(0deg);
-}
-
-.light-gray {
-  background: #555;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.medium-gray {
-  background: #444;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.dark-gray {
-  background: #333;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .wrapper {
@@ -257,18 +263,23 @@ a {
   background: radial-gradient(#787878, #545454);
 }
 
+/*
+==============================================================================================================
+    Wide Background Section
+=============================================================================================================== */
+
+
 .wide-background {
   height: 100vh;
   text-align: center;
   line-height: 1.5em;
   color: white;
   font-size: 2.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/*
-==============================================================================================================
-    Wide Background Section
-=============================================================================================================== */
 
 .wide-background p {
   width: 60%;
@@ -284,15 +295,18 @@ a {
   font-weight: 800;
 }
 
+/*
+==============================================================================================================
+    Remomte Section
+=============================================================================================================== */
+
 .remote-section {
   height: 200vh;
-  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 3fr;
 }
 
 .week-person {
-  display: grid;
   grid-template-columns: 1fr 3fr;
   color: white;
 }
@@ -311,13 +325,11 @@ a {
 }
 
 .remote-6 {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
 .person {
-  display: grid;
   grid-template-columns: 1fr 3fr;
   color: white;
 }
@@ -396,6 +408,7 @@ Link Section
 /* ======================================================================================
 Footer Section
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=++++++++++   */
+
 .footer {
   height: auto;
   display: flex;
