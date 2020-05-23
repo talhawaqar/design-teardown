@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo Paaji 2", Georgia, "Times New Roman", Times, serif;
+  max-width: 100%;
+  background-color: #aaa;
+}
+
+/*
+==============================================================================================================
+    Utiity Classes
+=============================================================================================================== */
+
+.clr {
+  clear: both;
+}
+
+.rotate-up {
+  transition: all 0.5s ease-out;
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+  box-shadow: 0 40px 35px -25px rgb(0, 0, 0);
+}
+
+.rotate-up:hover {
+  transition: all 0.5s ease-out;
+  transform: rotate(0deg);
+}
+
+.grid-display {
+  display: grid;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.light-gray-bg {
+  background: #555;
+}
+
+.medium-gray-bg {
+  background: #444;
+}
+
+.dark-gray-bg {
+  background: #333;
+}
+
+/*
+==============================================================================================================
+    Header Section Style
+=============================================================================================================== */
+
+button:hover {
+  cursor: pointer;
+}
+
+.logo {
+  width: 5em;
+  height: 4em;
+  margin-top: 1em;
+}
+
+.navbar {
+  height: 15vh;
+  background-color: #666;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-middle {
+  margin: 0 1em;
+  justify-content: space-between;
+}
+
+.navbar a {
+  padding: 0.5em;
+}
+
+.navbar a:hover {
+  background-color: #333;
+  border-radius: 0.5em;
+}
+
+.more-btn {
+  background: #444;
+  border-radius: 0.5em;
+}
+
+.more-btn img {
+  width: 4em;
+  height: 1.7em;
+}
+
+/*
+==============================================================================================================
+    Article Section Style
+=============================================================================================================== */
+
+.main-section {
+  position: relative;
+}
+
+.parent-grid-div {
+  position: relative;
+  height: 200vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.upper-text {
+  position: absolute;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.div-text {
+  width: 30%;
+  position: absolute;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+  background: white;
+  z-index: 1;
+}
+
+.main-content-div {
+  max-width: 50vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-div img {
+  width: 5em;
+  margin-right: 1em;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.wrapper {
+  color: #fff;
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.rick {
+  font-style: italic;
+}
+
+.img-div {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.author-description {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+/*
+==============================================================================================================
+    Text Section Style
+=============================================================================================================== */
+
+.text-section {
+  width: 100%;
+  height: 100%;
+}
+
+.text-section .box {
+  width: 33.33%;
+  height: 100vh;
+  float: left;
+}
+
+.group-text {
+  margin: 2em;
+}
+
+.heading-text {
+  width: 90%;
+  font-size: 1.7em;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.text-description {
+  font-size: 1.4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.arrow {
+  width: 10em;
+  height: 5em;
+  margin-top: 41%;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: white;
+  transform: scale(1.01);
+  transition: all 0.6s ease-out;
+}
+
+.box:hover .arrow {
+  background-color: #444;
+}
+
+/*
+==============================================================================================================
+    Tv Section Style
+=============================================================================================================== */
+
+.tv-section {
+  display: flex;
+  width: 100%;
+}
+
+.tv-section-box {
+  width: 35%;
+  height: 100vh;
+}
+
+.tv-section .new-on-tv {
+  width: 60%;
+  height: 100vh;
+  border-radius: 5px;
+}
+
+.radial {
+  background: radial-gradient(#787878, #545454);
+}
+
+/*
+==============================================================================================================
+    Wide Background Section
+=============================================================================================================== */
+
+.wide-background {
+  height: 100vh;
+  text-align: center;
+  line-height: 1.5em;
+  color: white;
+  font-size: 2.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wide-background p {
+  width: 60%;
+  line-height: 1em;
+}
+
+.btn {
+  margin-top: 8%;
+  width: 20%;
+  height: 10%;
+  border-radius: 5px;
+  border: none;
+  font-weight: 800;
+}
+
+/*
+==============================================================================================================
+    Remomte Section
+=============================================================================================================== */
+
+.remote-section {
+  height: 200vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+.week-person {
+  grid-template-columns: 1fr 3fr;
+  color: white;
+}
+
+.week-person .img-div {
+  width: 11em;
+  height: 11em;
+  border: solid #333 5px;
+  border-radius: 0.2em;
+  margin-top: 3em;
+}
+
+.remote-6 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.person {
+  grid-template-columns: 1fr 3fr;
+  color: white;
+}
+
+.person .img-div {
+  width: 5em;
+  height: 5em;
+  border: solid #333 5px;
+  border-radius: 0.2em;
+  margin: 0 3em;
+}
+
+.person h3 {
+  margin-top: 3em;
+  font-size: 15px;
+}
+
+.person h2 {
+  font-size: 22.5px;
+}
+
+.person p {
+  width: 70%;
+  font-size: 15px;
+}
+
+.feature-book {
+  position: relative;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  color: white;
+  height: 50vh;
+}
+
+.person-details .btn {
+  width: 20em;
+  padding: 1em;
+}
+
+.feature-book .img-div {
+  position: absolute;
+  right: 5em;
+  top: -6em;
+  height: 15em;
+}
+
+/* ======================================================================================
+Link Section
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=++++++++++   */
+
+.link-section {
+  height: 100vh;
+}
+
+.link-section .link-box {
+  height: 100vh;
+  width: 25%;
+  float: left;
+}
+
+.link-section .link-box h2 {
+  padding: 0.7em 0;
+}
+
+.link-box ul li {
+  line-height: 2.5em;
+  display: list-item;
+}
+
+.link-section .link-box ul li a {
+  color: black;
+}
+
+/* ======================================================================================
+Footer Section
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=++++++++++   */
+
+.footer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.footer-header {
+  margin: 2em 0 5em;
+}
+
+.unordered-links {
+  width: 70%;
+  font-size: 2em;
+  margin-bottom: 5em;
+}
+
+.footer .unordered-links li {
+  padding: 0 0.2em;
+}
