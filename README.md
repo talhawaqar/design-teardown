@@ -1,6 +1,7 @@
-# build the hierarchy of smashing Magazine
+## Design Teardown
+ This project is focused on improving us on design heirarchy and method of laying out a site
+ by building the hierarchy of smashing Magazine.
 
-Microverse project focused on learning Design Hierarchy
 
 ![screenshot](./images/Screenshot.png)
 
@@ -8,12 +9,45 @@ The page shows the design Hierarchy of Smashing Magazine .
 
 ## Built With
 
-- Html,
-- CSS
+- HtmL5
+- CSS3(Flexbox, Grid)
 
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/talhawaqar/design-teardown/feature-page/index.html)
+
+# Getting Started 🚀
+
+These instructions will get you a copy of the project up and running on your local machine.
+
+## How To Use 🔧
+
+From your command line, first clone the project:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Haroonabdulrazaq/design-teardown
+
+
+# Go into the repository
+$ cd design-teardown
+
+```
+
+## Set up
+- Clone this Project to your local machine
+- Change directory into this project
+- Open it in your prefered IDE(Integrated Development Environment)
+
+## Prerequisite
+- Integrated Development Evnvironment
+
+## Test
+- [HTML Validator](https://validator.w3.org/)
+- CSS code linters
+
+## Deployment
+- Deployed Using [Githack](raw.githack.com)
 
 ## Authors
 
